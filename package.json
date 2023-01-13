@@ -1,0 +1,27 @@
+{
+  "name": "@xin216/tool",
+  "version": "1.0.0",
+  "description": "A tool library by hxc ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx rollup -wc rollup.config.dev.js",
+    "build": "rollup -c"
+  },
+  "author": "hxc",
+  "license": "ISC",
+  "keywords": [
+    "工具",
+    "工具类",
+    "util",
+    "utils"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "rollup": "^3.9.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
